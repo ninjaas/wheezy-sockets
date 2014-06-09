@@ -3,6 +3,8 @@
 This code serve as an example for using WebSockets with wheezy.web. 
 What would be prefect than a chat application?
 
+![](https://lh5.googleusercontent.com/-vYLqFjJtd2M/U5YABun7wAI/AAAAAAAAKNk/tviQLHd3qq0/w900-no/screenshot.png)
+
 There are multiple ways of implementing websockets. 
 But, it's something like chat is too complex.
 So, I have added another small example `test.py` to understand in a better way.
