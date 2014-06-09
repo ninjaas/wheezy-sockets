@@ -1,0 +1,14 @@
+argparse==1.2.1
+gevent==1.0.1
+gevent-websocket==0.9.3
+greenlet==0.4.2
+wheezy.caching==0.1.108
+wheezy.core==0.1.134
+wheezy.html==0.1.140
+wheezy.http==0.1.321
+wheezy.routing==0.1.153
+wheezy.security==0.1.61
+wheezy.template==0.1.151
+wheezy.validation==0.1.130
+wheezy.web==0.1.450
+wsgiref==0.1.2
