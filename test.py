@@ -4,7 +4,6 @@ from wheezy.web.handlers import BaseHandler
 from wheezy.http import WSGIApplication
 from wheezy.routing import url
 from wheezy.web.middleware import bootstrap_defaults, path_routing_middleware_factory
-from wheezy.html.ext.template import WidgetExtension
 from wheezy.html.utils import html_escape
 from wheezy.template.engine import Engine
 from wheezy.template.ext.core import CoreExtension
@@ -43,7 +42,6 @@ engine = Engine(
     loader=FileLoader(searchpath),
     extensions=[
         CoreExtension(),
-        WidgetExtension(),
     ])
 engine.global_vars.update({
     'h': html_escape
